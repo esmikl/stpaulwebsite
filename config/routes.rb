@@ -1,5 +1,4 @@
 Rails.application.routes.draw do
-  devise_for :models
   resources :events
   get '/about', to: 'welcome#about', as: 'about'
   root 'welcome#index'
