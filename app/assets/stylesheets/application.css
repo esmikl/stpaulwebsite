@@ -14,8 +14,7 @@
  *= require_self
  */
 body {
-    font-family: 'Roboto', sans-serif;
-    padding-bottom: 20px;
+    font-family: 'Roboto', sans-serif !important;
 }
 
 .container-fluid {
@@ -30,39 +29,12 @@ img.logo {
     display: block;
 }
 
-.dl-horizontal dt {
-    white-space: normal;
-}
-
-input,
-select,
-textarea {
-    max-width: 280px;
-}
-
-a#userDropdown::after{
-    content: '\25BC';
-    color: #363636;
-    width: 2px;
-
-}
-
-#contactForm > .form-group > label::first-letter {
-    text-transform: uppercase;
-}
-
-.field-validation-valid
-{
-    display: none;
-}
-.validation-summary-valid
-{
-    display: none;
-}
-
 img {width: 100%;}
 
-h1, h2, h3, h4 {font-family: 'Roboto', sans-serif;}
+h1, h2, h3, h4 {
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: 400 !important;
+}
 
 .navbar {border-radius: 0;}
 
@@ -76,7 +48,11 @@ div.background-image {
     text-align: center !important;
 }
 
-.navbar-nav {float: right;}
+.navbar-nav {
+  float: none !important;
+  font-family: 'Roboto', sans-serif !important;
+  font-size: 1.1em;
+}
 
 .navbar {margin-bottom: 0;}
 
@@ -88,7 +64,7 @@ div.background-image {
 }
 
 .navbar-nav > li > a:hover, .navbar-nav > li > a:focus {
-    background-color: transparent;
+    background-color: transparent !important;
 }
 
 .navbar-nav li:hover {
