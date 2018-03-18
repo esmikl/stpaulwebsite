@@ -1,0 +1,278 @@
+/* line 1, /Users/EmilyMikl/churchwebsite/app/assets/stylesheets/scaffolds.scss */
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 9, /Users/EmilyMikl/churchwebsite/app/assets/stylesheets/scaffolds.scss */
+p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 15, /Users/EmilyMikl/churchwebsite/app/assets/stylesheets/scaffolds.scss */
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+/* line 21, /Users/EmilyMikl/churchwebsite/app/assets/stylesheets/scaffolds.scss */
+a {
+  color: #000;
+}
+/* line 24, /Users/EmilyMikl/churchwebsite/app/assets/stylesheets/scaffolds.scss */
+a:visited {
+  color: #666;
+}
+/* line 28, /Users/EmilyMikl/churchwebsite/app/assets/stylesheets/scaffolds.scss */
+a:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+/* line 35, /Users/EmilyMikl/churchwebsite/app/assets/stylesheets/scaffolds.scss */
+div.field, div.actions {
+  margin-bottom: 10px;
+}
+
+/* line 40, /Users/EmilyMikl/churchwebsite/app/assets/stylesheets/scaffolds.scss */
+#notice {
+  color: green;
+}
+
+/* line 44, /Users/EmilyMikl/churchwebsite/app/assets/stylesheets/scaffolds.scss */
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+/* line 50, /Users/EmilyMikl/churchwebsite/app/assets/stylesheets/scaffolds.scss */
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+/* line 58, /Users/EmilyMikl/churchwebsite/app/assets/stylesheets/scaffolds.scss */
+#error_explanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  margin-bottom: 0px;
+  background-color: #c00;
+  color: #fff;
+}
+/* line 69, /Users/EmilyMikl/churchwebsite/app/assets/stylesheets/scaffolds.scss */
+#error_explanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+/* line 17, /Users/EmilyMikl/churchwebsite/app/assets/stylesheets/application.scss */
+body {
+  font-family: 'Roboto', sans-serif !important;
+}
+
+/* line 21, /Users/EmilyMikl/churchwebsite/app/assets/stylesheets/application.scss */
+a:hover {
+  background-color: transparent;
+}
+
+/* line 23, /Users/EmilyMikl/churchwebsite/app/assets/stylesheets/application.scss */
+.container-fluid {
+  max-width: 1920px;
+  margin: auto;
+}
+
+/* line 28, /Users/EmilyMikl/churchwebsite/app/assets/stylesheets/application.scss */
+img.logo {
+  width: 500px;
+  padding: 20px;
+  margin: auto;
+  display: block;
+}
+
+/* line 35, /Users/EmilyMikl/churchwebsite/app/assets/stylesheets/application.scss */
+img {
+  width: 100%;
+  max-width: 1500px;
+}
+
+/* line 40, /Users/EmilyMikl/churchwebsite/app/assets/stylesheets/application.scss */
+p {
+  font-family: 'Roboto', sans-serif !important;
+  font-size: 18px !important;
+  font-weight: 100 !important;
+}
+
+/* line 46, /Users/EmilyMikl/churchwebsite/app/assets/stylesheets/application.scss */
+h1 {
+  font-weight: 700 !important;
+  font-size: 4em !important;
+  text-transform: uppercase;
+}
+
+/* line 52, /Users/EmilyMikl/churchwebsite/app/assets/stylesheets/application.scss */
+h2, h3, h4 {
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: 400 !important;
+  text-transform: uppercase;
+}
+
+/* line 58, /Users/EmilyMikl/churchwebsite/app/assets/stylesheets/application.scss */
+div.background-image {
+  background-image: url(/assets/church_mobile-b62e5248df290ea3b16b30229fcb5e3dd6cd42c19ac4db82ea05bc676f4219e2.jpg);
+  margin-bottom: 3em;
+  background-size: 100% auto;
+  width: 100%;
+  padding: 45% 0 0;
+  margin: 0 auto;
+  position: relative;
+}
+@media (min-width: 960px) {
+  /* line 58, /Users/EmilyMikl/churchwebsite/app/assets/stylesheets/application.scss */
+  div.background-image {
+    background-image: url(/assets/church_tablet-11e97008df84875d44c157956f031fcc9250f7a4a0a859b83ba05d9fbd535679.jpg);
+  }
+}
+@media (min-width: 1100px) {
+  /* line 58, /Users/EmilyMikl/churchwebsite/app/assets/stylesheets/application.scss */
+  div.background-image {
+    background-image: url(/assets/church-4da067c936b52d769627eeaba5b5154f56d44aba5be9650a7a11411b20756e36.jpg);
+  }
+}
+
+/* line 76, /Users/EmilyMikl/churchwebsite/app/assets/stylesheets/application.scss */
+.navbar-nav {
+  float: none !important;
+  font-family: 'Roboto', sans-serif !important;
+  font-size: 1.1em;
+}
+/* line 81, /Users/EmilyMikl/churchwebsite/app/assets/stylesheets/application.scss */
+.navbar-nav li {
+  border-bottom: 2px solid transparent;
+}
+/* line 84, /Users/EmilyMikl/churchwebsite/app/assets/stylesheets/application.scss */
+.navbar-nav li:hover {
+  background-color: transparent;
+  border-bottom: 2px solid #363636;
+  font-weight: 500;
+}
+/* line 90, /Users/EmilyMikl/churchwebsite/app/assets/stylesheets/application.scss */
+.navbar-nav li > a {
+  color: #363636;
+  text-transform: uppercase;
+  padding: 0 40px;
+  height: 35px;
+}
+/* line 96, /Users/EmilyMikl/churchwebsite/app/assets/stylesheets/application.scss */
+.navbar-nav li > a:hover, .navbar-nav li > a:focus {
+  background-color: transparent !important;
+}
+
+/* line 101, /Users/EmilyMikl/churchwebsite/app/assets/stylesheets/application.scss */
+.navbar-collapse.collapse {
+  text-align: center !important;
+}
+
+/* line 105, /Users/EmilyMikl/churchwebsite/app/assets/stylesheets/application.scss */
+.mainNav {
+  display: inline-block;
+  float: none;
+}
+
+/* line 111, /Users/EmilyMikl/churchwebsite/app/assets/stylesheets/application.scss */
+.secondary-info-background {
+  margin-top: 2em;
+}
+
+/* line 116, /Users/EmilyMikl/churchwebsite/app/assets/stylesheets/application.scss */
+.worship-services h1 {
+  margin-top: 0;
+}
+/* line 118, /Users/EmilyMikl/churchwebsite/app/assets/stylesheets/application.scss */
+.worship-services h3 {
+  font-size: 2.5em;
+}
+/* line 122, /Users/EmilyMikl/churchwebsite/app/assets/stylesheets/application.scss */
+.worship-services p {
+  font-size: 25px !important;
+  line-height: normal;
+}
+
+/* line 128, /Users/EmilyMikl/churchwebsite/app/assets/stylesheets/application.scss */
+.upcoming-events {
+  background-color: #ddd;
+  padding: 10px;
+}
+/* line 132, /Users/EmilyMikl/churchwebsite/app/assets/stylesheets/application.scss */
+.upcoming-events h1 {
+  font-size: 2.5em !important;
+}
+/* line 136, /Users/EmilyMikl/churchwebsite/app/assets/stylesheets/application.scss */
+.upcoming-events h2 {
+  font-size: 1.7em;
+  text-transform: none;
+}
+
+/**************
+FOOTER
+***************/
+/* line 146, /Users/EmilyMikl/churchwebsite/app/assets/stylesheets/application.scss */
+iframe {
+  width: 100%;
+  height: 400px;
+}
+
+/* line 151, /Users/EmilyMikl/churchwebsite/app/assets/stylesheets/application.scss */
+footer {
+  margin-top: 2em;
+}
+/* line 153, /Users/EmilyMikl/churchwebsite/app/assets/stylesheets/application.scss */
+footer p {
+  text-align: center;
+}
+
+/* line 156, /Users/EmilyMikl/churchwebsite/app/assets/stylesheets/application.scss */
+.wels-logo {
+  margin-top: -1em;
+}
+
+/* line 160, /Users/EmilyMikl/churchwebsite/app/assets/stylesheets/application.scss */
+.address-info {
+  margin-top: 1.5em;
+}
+
+/* line 164, /Users/EmilyMikl/churchwebsite/app/assets/stylesheets/application.scss */
+.copyright, .credits {
+  text-align: center;
+  display: block;
+}
+/* line 169, /Users/EmilyMikl/churchwebsite/app/assets/stylesheets/application.scss */
+.copyright a:hover, .credits a:hover {
+  background-color: transparent;
+}

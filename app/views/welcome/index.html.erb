@@ -1,24 +1,47 @@
-<div class="container-fluid background-image">
-  <%= image_tag 'ThisIsTheDayHeader.jpg' %>
-    <div class="col-lg-4 overlay-content">
-        <h1><span class="come">Come</span> <span class="oh-come">oh come</span><br /><span class="let-us"> let us </span><span class="worship-span">worship</span></h1>
-    </div>
-</div>
-
-<div class="container-fluid secondary-info-background">
+<div class="container-fluid">
     <div class="container secondary-info">
-        <div class="row">
+		<div class="row background-image">
+		</div>
+        <div class="row wrapper">
             <div class="col-sm-6 worship-services">
-                <h2>Worship Services</h2>
+                <h1>Worship Services</h1>
                 <h3>Sundays:</h3>
-                <p>8:00 a.m. &amp; 10:30 a.m.</p>
-                <p>Sunday School &amp; Adult Bible Classes 9:10 a.m.</p>
+                <p>9:00 a.m. (one service)</p>
+				<p>J.A.M. & Teen Bible Study 10:15 a.m.</p>
+				<p>Adult Bible Study 10:15 a.m.</p>
+				<p class="location">Located in downtown Bloomer, Wisconsin</p>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2816.1531115724924!2d-91.48970814825608!3d45.102964165391576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x52acb70004fe32df%3A0x38d07829b4fe888!2s1319+Larson+St%2C+Bloomer%2C+WI+54724!5e0!3m2!1sen!2sus!4v1466896621678" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
-            <div class="col-sm-6">
-                <h2>Upcoming Events</h2>
-
-              
-            </div>
+				
+			<% if Date.today <= Date.parse('2018-04-01')%>
+				<div class="col-sm-6 upcoming-events">
+					<!--<h1>Upcoming Events</h1>
+					<% @events.each do |event| %>
+						<% if event.date >= Date.today %>
+							<h2><%= event.title %></h2>
+							<p><%= event.date.strftime('%A, %B %d, %Y') %></p>
+							<p><%= event.description %></p>
+							<hr>
+						<%end%>
+					<% end %>-->
+					<h1>Holy Week Services</h1>
+					<h2>Palm Sunday</h2>
+					<p>Sunday, March 25, 9:00 a.m.</p>
+					<hr>
+					<h2>Maundy Thursday</h2>
+					<p>Thursday, March 29</p>
+					<p>11:00 a.m. & 7:00 p.m.</p>
+					<hr>
+					<h2>Good Friday</h2>
+					<p>Friday, March 30</p>
+					<p>1:00 p.m. & 7:00 p.m.</p>
+					<hr>
+					<h2>Easter Sunday</h2>
+					<p>Sunday, April 1</p>
+					<p>Easter Vigil 6:30 a.m.</p>
+					<p>Easter Festival 9:00 a.m.</p>
+				</div>
+			<% end %>
         </div>
     </div>
     <div class="container-fluid bottom-block"></div>

@@ -1,0 +1,210 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+body.stpaul {
+    font-family: 'Roboto', sans-serif;
+}
+
+hr {
+	border-top: 1px solid #ddd;
+}
+
+a:hover {background-color: transparent;}
+
+.container-fluid {
+    max-width: 1920px;
+    margin: auto;
+	padding: 0;
+}
+
+.row {margin: 0;}
+
+img.logo {
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+    display: block;
+	
+	@media (min-width: 800px) {
+		width: 500px;
+	}
+}
+
+img {
+	width: 100%;
+	max-width: 1500px;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 100;
+}
+
+.stpaul strong {font-weight: 500;}
+
+.stpaul {
+	& h1 {
+	  font-weight: 700;
+	  font-size: 4em;
+	  text-transform: uppercase;
+	}
+	
+	& h2, h3, h4 {
+		font-family: 'Roboto', sans-serif;
+		font-weight: 400;
+		text-transform: uppercase;
+	}
+}
+
+div.background-image {
+	background-image: image-url("church_mobile.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	width: 100%;
+	padding: 68% 0 0;
+	margin: 0 auto;
+	position: relative;
+	
+	@media (min-width: 800px) {
+		background-image: image-url("church_tablet.jpg");
+	}
+	
+	@media (min-width: 1100px) {
+		background-image: image-url("church.jpg");
+	}
+}
+
+div.wrapper {margin: 3em 0 0;}
+
+.stpaul .navbar-nav {
+	float: none;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.1em;
+	text-align: center;
+  
+	li {
+		& a {
+			color: #363636;
+			text-transform: uppercase;
+			padding: 0 40px;
+			height: 35px;
+			
+			&:hover, &:focus {
+				text-decoration: underline;
+				font-weight: 500;
+				background-color: transparent;
+			}
+		}
+  	}
+}
+
+.navbar-collapse.collapse {
+    text-align: center;
+}
+
+.mainNav {
+    display: block;
+    float: none;
+
+}
+
+.secondary-info-background {
+  margin-top: 2em;
+}
+
+.worship-services {
+	h1 {margin-top: 0;}
+	
+	h3 {
+		font-size: 2.5em;
+	}
+
+	p {
+		font-size: 25px;
+		line-height: normal;
+	}
+
+	& .location {
+		border-top: 1px solid #ddd;
+		padding-top: 1em;
+		margin-top: 1em;
+	}
+}
+
+.upcoming-events {
+	border: 6px solid #DDD;
+	padding: 10px;
+	
+	h1 {
+		font-size: 2.5em;
+	}
+	
+	h2 {
+		font-size: 1.7em;
+		text-transform: none;
+	}
+	
+	p {
+		line-height: 2.5rem;
+		
+		&.larger {
+			font-size: 25px;
+		}
+	}
+	
+	hr:last-child {
+		display: none;
+	}
+}
+
+.photo-signup {
+	padding: 0 0 0 2rem;
+	
+	a {
+		display: block;
+	}
+}
+
+/**************
+FOOTER
+***************/
+
+iframe {
+    width: 100%;
+    height: 400px;
+}
+
+footer {
+  margin-top: 2em;
+  p {text-align: center;}
+}
+
+.wels-logo {
+	margin-top: -1em;
+}
+
+.address-info {
+	margin-top: 1.5em;
+}
+
+.copyright, .credits {
+    text-align: center;
+    display: block;
+	
+	& a {
+		&:hover {background-color: transparent;}
+	}
+}
